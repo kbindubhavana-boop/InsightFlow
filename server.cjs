@@ -104,7 +104,7 @@ app.get("/api/adaption/download", async (req, res) => {
     res.setHeader("Content-Type", "text/csv; charset=utf-8");
     res.setHeader(
       "Content-Disposition",
-      'attachment; filename="customer_review_analysis.csv"'
+      'attachment; filename="customer_review_analysis final.csv"'
     );
 
     res.send(csv);
